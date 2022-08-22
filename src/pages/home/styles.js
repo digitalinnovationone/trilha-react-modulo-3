@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.main`
     width: 100%;
@@ -11,7 +11,6 @@ export const Container = styled.main`
     justify-content: space-between;
     align-items: center;
 `
-
 
 export const Title = styled.h2`
     font-family: 'Open Sans';
@@ -26,7 +25,7 @@ export const Title = styled.h2`
 `
 
 export const TitleHighlight = styled.span`
-    color: #E4105D;;
+    color: #E4105D;
 `
 
 export const TextContent = styled.p`
@@ -34,10 +33,9 @@ export const TextContent = styled.p`
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
     width: 420px;
-
     margin-bottom: 20px;
+    line-height: 22px;
 
-    color: #FFFFFF;
-`
+    color: #FFFFFF
+` 
